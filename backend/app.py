@@ -23,3 +23,6 @@ def predict_energy():
     future_hours = np.arange(25, 49).reshape(-1, 1)
     predictions = model.predict(future_hours)
     return {"predicted_energy": predictions.tolist()}
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=10000)
