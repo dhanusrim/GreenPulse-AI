@@ -21,3 +21,7 @@ IoT Sensors → Backend → ML Model → Dashboard
 
 ## 🚀 Status
 Project Planning & Prototype Phase
+
+## 🧪 Prototype Implemented
+A basic energy prediction model using Linear Regression has been implemented in the ml-model folder.
+Next phase will integrate LSTM for advanced forecasting.
